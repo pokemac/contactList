@@ -1,13 +1,13 @@
 import './App.css'
-
-function App() {
+import ContactList from './components/ContactList'
+export default function App() {
 
 
   return (
     <>
-
+      <ContactList />
     </>
   )
 }
 
-export default App
+
